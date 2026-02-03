@@ -23,6 +23,26 @@ The simulator is menu-driven and allows users to create transactions, view UTXOs
 - README.md – Project documentation
 - sample_output.txt – Sample execution output
 
+## Getting the Repository
+
+Clone the repository and navigate to the project directory:
+
+`
+git clone https://github.com/<hardikhazari>/<CS216-MechBois-UTXO-Simulator>.git
+cd <CS216-MechBois-UTXO-Simulator>
+``
+<br>
+# How to Run the Program
+  >Ensure you are in the project root directory.
+  >Run the main program using:
+    python3 src/main.py <br>
+  >A menu-driven interface will appear, allowing you to:<br>
+    >>Create new transactions <br>
+    >>View the current UTXO set <br>
+    >>View mempool transactions <br>
+    >>Mine blocks  <br>
+    >>Run test scenarios <br>
+
 ### Source Code (src/)
 - main.py – Main program entry point
 - utxo_manager.py – UTXO set management
