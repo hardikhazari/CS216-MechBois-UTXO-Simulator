@@ -27,10 +27,10 @@ The simulator is menu-driven and allows users to create transactions, view UTXOs
 
 Clone the repository and navigate to the project directory:
 
-`
-git clone https://github.com/<hardikhazari>/<CS216-MechBois-UTXO-Simulator>.git
-cd <CS216-MechBois-UTXO-Simulator>
-``
+
+git clone https://github.com/hardikhazari/CS216-MechBois-UTXO-Simulator.git <br>
+cd CS216-MechBois-UTXO-Simulator
+
 <br>
 # How to Run the Program
   >Ensure you are in the project root directory.
