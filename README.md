@@ -19,26 +19,23 @@ The simulator is menu-driven and allows users to create transactions, view UTXOs
 
 ## Repository Structure
 
-repository/
-│
-├── src/
-│   ├── main.py              # Main program entry point
-│   ├── utxo_manager.py      # UTXO set management
-│   ├── transaction.py       # Transaction structure and ID generation
-│   ├── validator.py         # Transaction validation rules
-│   ├── mempool.py           # Mempool handling and conflict prevention
-│   ├── mining.py            # Block mining and UTXO updates
-│   └── __init__.py
-│
-├── tests/
-│   ├── test_scenarios.py    # Functional test cases
-│   ├── security_audit.py    # Security and adversarial tests
-│   └── __init__.py
-│
-├── README.md
-└── sample_output.txt
+### Root Directory
+- README.md – Project documentation
+- sample_output.txt – Sample execution output
 
+### Source Code (src/)
+- main.py – Main program entry point
+- utxo_manager.py – UTXO set management
+- transaction.py – Transaction structure and ID generation
+- validator.py – Transaction validation rules
+- mempool.py – Mempool handling and conflict prevention
+- mining.py – Block mining and UTXO updates
+- __init__.py
 
+### Tests (tests/)
+- test_scenarios.py – Functional test cases
+- security_audit.py – Security and adversarial tests
+- __init__.py
 
 ## How to Run the Program
 
